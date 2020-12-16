@@ -3,7 +3,6 @@ module github.com/tikv/client-go
 go 1.15
 
 require (
-	github.com/coreos/etcd v3.3.25+incompatible
 	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548
 	github.com/golang/protobuf v1.3.4
 	github.com/google/btree v1.0.0
@@ -22,7 +21,7 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/stretchr/testify v1.6.1 // indirect
 	github.com/tikv/pd v1.1.0-beta.0.20201113054545-cbbb7946a0d4
-	go.etcd.io/etcd v3.3.25+incompatible // indirect
+	go.etcd.io/etcd v0.5.0-alpha.5.0.20200824191128-ae9734ed278b
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0 // indirect
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
